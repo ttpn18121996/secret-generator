@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <h1>Secret Generator</h1>
+      <h1 className="heading">Secret Generator</h1>
       <div className="options">
         <div className="option">
           <input type="text" id="length" value={length} onChange={(e) => setLength(e.target.value)} />
